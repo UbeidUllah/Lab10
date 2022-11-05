@@ -10,9 +10,9 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
+  test:
+    name: Running Node Unit Tests
+    runs-on: macos-latest
 
     strategy:
       matrix:
