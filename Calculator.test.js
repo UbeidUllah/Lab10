@@ -19,7 +19,3 @@ test("test case3 testing mul method", () => {
 test("test case4 testing div method", () => {
     expect(Calculator.div(x,y)).toBe(3)
 });
-
-test("test case5 testing div method", () => {
-    expect(Calculator.diff(x,0)).toBe(9)
-});
